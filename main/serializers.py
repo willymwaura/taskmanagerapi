@@ -8,6 +8,7 @@ class BuyingSerializer(serializers.ModelSerializer):
     class Meta:
         model=Buying
         fields="__all__"
+        
 class BuySerializer(serializers.ModelSerializer):
 
     class Meta:

@@ -38,6 +38,7 @@ class allstock(APIView):
       
       
 
+
 class deletestock(APIView):    
    def delete (self,request,pk):
       s=Buying.objects.get(id=pk)
