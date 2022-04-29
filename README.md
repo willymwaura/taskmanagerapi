@@ -1,5 +1,4 @@
 # taskmanagerapi
 simple todo app api
-It just have the get ,post , delete methods 
-the api is currently running on willlymwaura.pythonanywhere.com till feb 2022
-
+It  haves the get ,post , delete HTTPS methods 
+Authentication is done using djoser module
