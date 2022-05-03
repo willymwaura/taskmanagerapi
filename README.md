@@ -1,5 +1,6 @@
 # taskmanagerapi
-simple todo app api
-It just have the get ,post , delete methods 
-the api is currently running on willlymwaura.pythonanywhere.com till feb 2022
+todo app api made using django rest framework
+Authentication is done using djoser module
+caching is done using python memcached module
+
 
