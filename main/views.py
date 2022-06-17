@@ -14,6 +14,8 @@ from django.views.decorators.vary import vary_on_headers
 from django.utils.decorators import method_decorator
 from django.core.mail import send_mail
 from django.conf import settings
+
+
 # Create your views here.
 @permission_classes ((IsAuthenticated,))
 
@@ -41,7 +43,7 @@ class deletetask(APIView):
 
             # send the email to the recipent
       send_mail(subject, message,'wilsonmwaura697@gmail.com',['njaiya.mwaura1@students.jkuat.ac.ke'])
-      print("email sent")      
+      print("email sent")     
       return response.JsonResponse({'message': "delete successful"})
 
 

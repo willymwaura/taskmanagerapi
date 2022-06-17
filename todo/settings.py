@@ -98,7 +98,7 @@ REST_FRAMEWORK={
 }
 AUTH_USER_MODEL='authapp.User'
 DJOSER={
-    'LOGIN_FIELD':'email',
+    #'LOGIN_FIELD':'username',
     'USER_CREATE_PASSWORD_RETYPE':True,
     'SERIALIZERS':{
         'user_create':'authapp.serializers.UserCreateSerializer',
@@ -162,3 +162,4 @@ EMAIL_HOST_USER = 'wilsonmwaura697@gmail.com'
 EMAIL_HOST_PASSWORD = 'qukg jevq gdae taie'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+SMS_BACKEND = 'sms.backends.twilio.SmsBackend'
